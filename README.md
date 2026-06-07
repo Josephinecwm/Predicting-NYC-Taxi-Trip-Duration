@@ -14,7 +14,7 @@ A machine learning pipeline built to predict the duration of New York City taxi 
 
 ## 🚀 Key Engineering Highlights
 
-* ** Feature Extraction:** Engineered custom temporal features (`pickup_hour`, `pickup_day_of_week`, `is_weekend`) and spatial proxies (`manhattan_dist`) to mimic Manhattan's strict grid infrastructure.
+* **Feature Extraction:** Engineered custom temporal features (`pickup_hour`, `pickup_day_of_week`, `is_weekend`) and spatial proxies (`manhattan_dist`) to mimic Manhattan's strict grid infrastructure.
 * **Target Optimisation:** Applied a log-transformation to the target variable into a generalisable normal curve.
 * **Production Validation:** Implemented a robust 5-Fold Cross-Validation loop to guarantee model stability across all unseen data slices.
 
@@ -25,4 +25,4 @@ A machine learning pipeline built to predict the duration of New York City taxi 
 * **Modeling Framework:** LightGBM
 * **Data Engineering:** Pandas, NumPy
 * **Evaluation & Splitting:** Scikit-Learn
-* **Visualization:** Matplotlib, Seaborn
+* **Visualisation:** Matplotlib, Seaborn
